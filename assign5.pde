@@ -82,7 +82,7 @@ void setup(){
   }
   scoreText = createFont("Arial",20);
 
-  blood=200;
+  blood=80;
   fighterX=width-50;
   fighterY=height/2;
   treasureX=floor(random(100,500));
@@ -295,7 +295,7 @@ void draw(){
         if(mouseY>300 && mouseY<340){
           if(mousePressed){
             gameState=2;
-            blood=200;
+            blood=80;
             fighterX=width-50;
             fighterY=height/2;            
         }else{
